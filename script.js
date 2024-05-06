@@ -3,8 +3,8 @@ function insert_Row() {
 	let addrow = document.getElementById("sampleTable")
 	let row = document.createElement("tr")
 	row.innerHTML = `
-		<td>New cell1</td> 
-		<td>New cell2</td>
+		<td>New Cell1</td> 
+		<td>New Cell2</td>
 	`
 	addrow.prepend(row)
 }
